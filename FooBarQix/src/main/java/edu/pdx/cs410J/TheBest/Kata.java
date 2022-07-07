@@ -13,10 +13,19 @@ public class Kata {
     System.exit(1);
   }
 
+  // method to implement divisibility by 3
   public static String divisibleBy3(int number) {
     if(number % 3 == 0) {
       return "Foo";
     }
-    return "notFoo";
+    return "";
+  }
+
+  // method to implement divisibility by 5
+  public static String divisibleBy5(int num) {
+    if (num % 5 == 0) {
+      return "Bar";
+    }
+    return "";
   }
 }

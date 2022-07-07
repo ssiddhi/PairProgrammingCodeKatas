@@ -20,4 +20,17 @@ public class KataTest
     assertThat(myKata.divisibleBy3(number), is("Foo"));
   }
 
+  @Test
+  void isDivisibleBy5DoesNotContain5() {
+    int num = 10;
+    Kata k = new Kata();
+    assertThat(k.divisibleBy5(num), is("Bar"));
+  }
+
 }
+
+
+
+
+
+
